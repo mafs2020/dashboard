@@ -66,6 +66,7 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    animation: mover 2s ease-in-out;
 }
 
 .textos-header h1{
@@ -418,3 +419,14 @@ footer{
         margin-bottom: 15px;
     }
 }
+
+@keyframes mover {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
