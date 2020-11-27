@@ -158,6 +158,7 @@ main .sobre-nosotros{
     height: 100%;
     object-fit: cover;
     display: block;
+    object-position: center;
 }
 
 .hover-galeria{
